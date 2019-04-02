@@ -1,3 +1,4 @@
+
 public class Main {
 
     public static void main(String[] args) {
@@ -6,13 +7,22 @@ public class Main {
         Calculator calc = new CalculatorImpl();
 
         calc.addValue(20);	// currently highest number
-        calc.addValue(4);	// currently lowester number
+        calc.addValue(4);	// currently lowest number
         calc.addValue(16);
 
         // add other integers
+        calc.addValue(42);
+        calc.addValue(35);
+        calc.addValue(12);
+        calc.addValue(2);
+        calc.addValue(25);
+        calc.addValue(8);
+        calc.addValue(13);
+
+
 
         // output lowest number
-
+        System.out.println("min: "+calc.getMinimum());
         // output highest number
 
         // output sum of all numbers

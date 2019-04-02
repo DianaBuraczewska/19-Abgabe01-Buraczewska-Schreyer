@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 public class CalculatorImpl implements Calculator {
@@ -16,7 +18,7 @@ public class CalculatorImpl implements Calculator {
     }
 
     public int getMinimum() {
-        return 0;
+        return Collections.min(numbers);
     }
 
     public void addValue(int value) {
