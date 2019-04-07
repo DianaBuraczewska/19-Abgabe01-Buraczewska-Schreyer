@@ -19,13 +19,14 @@ public class Main {
         calc.addValue(8);
         calc.addValue(13);
 
-
-
+        
         // output lowest number
         System.out.println("min: "+calc.getMinimum());
         // output highest number
-
+        System.out.println("max: " + calc.getMaximum());
         // output sum of all numbers
+        System.out.println("sum: " + calc.sum());
+        
 
     }
 

@@ -9,8 +9,12 @@ public class CalculatorImpl implements Calculator {
     public CalculatorImpl() {
     }
 
-    public int sum() {
-        return 0;
+    public int sum(ArrayList<Integer>numbers) {
+        int sum;
+        for(int i=0, i<+numbers.size-1,i++){
+          sum += numbers.get(i);
+        }
+        return sum;
     }
 
     public int getMaximum() {
