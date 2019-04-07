@@ -14,7 +14,7 @@ public class CalculatorImpl implements Calculator {
     }
 
     public int getMaximum() {
-        return 0;
+        return Collections.max(numbers);
     }
 
     public int getMinimum() {
