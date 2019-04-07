@@ -21,12 +21,13 @@ public class Main {
 
 
 
+
         // output lowest number
         System.out.println("min: "+calc.getMinimum());
         // output highest number
 
         // output sum of all numbers
-
+        System.out.println("sum: "+calc.sum());
     }
 
 }
