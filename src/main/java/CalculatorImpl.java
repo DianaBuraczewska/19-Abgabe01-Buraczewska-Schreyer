@@ -13,6 +13,7 @@ public class CalculatorImpl implements Calculator {
         int sum = 0;
         for (int value : numbers) {
             sum += value;
+            
         }
         return sum;
     }

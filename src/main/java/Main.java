@@ -19,15 +19,25 @@ public class Main {
         calc.addValue(8);
         calc.addValue(13);
 
+<<<<<<< HEAD
 
 
 
+=======
+        
+>>>>>>> 8484ed782999f071eab63fbec82c8fe1fb5fac3a
         // output lowest number
         System.out.println("min: "+calc.getMinimum());
         // output highest number
-
+        System.out.println("max: " + calc.getMaximum());
         // output sum of all numbers
+<<<<<<< HEAD
         System.out.println("sum: "+calc.sum());
+=======
+        System.out.println("sum: " + calc.sum());
+        
+
+>>>>>>> 8484ed782999f071eab63fbec82c8fe1fb5fac3a
     }
 
 }
